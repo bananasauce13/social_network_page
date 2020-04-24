@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+   
+    
+}
+nav {
+    height: 50px;
+    border: 1px dotted grey;
+}
+.header {
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    position: relative;
+    
+}
+
+.header-bg {
+    height: 225px;
+    width: 850px;
+    background-color: royalblue;
+    border: 5px solid royalblue;
+}
+
+.like-button  {
+    height: 80px;
+    width: 8%;
+    box-sizing: border-box;
+    float: right;
+    
+}
+
+.like-button h3 {
+    background-color: lightslategray;
+    
+    
+
+}
+
+.profile-info {
+    position: relative;
+    top: 100px;
+    left: 250px;
+
+}
+.profile-info h1 {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.profile-info h2 {
+    color: white;
+    font-size: large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.profile-heading {
+    height: 100px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.profile-buttons {
+    height: 40px;
+    width: 80%;
+    position: relative;
+    top: -150px;
+    float: left;
+    left: 250px;
+}
+
+.profile-buttons button {
+    font-size: x-large;
+    background: white;
+    color: black;
+}
+
+.profile-photo {
+    background-image: url(https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/73497819_1758117767653623_3246536796607086592_n.jpg?_nc_cat=101&_nc_sid=174925&_nc_ohc=o-HBKJBEtggAX92BGtU&_nc_ht=scontent-dfw5-1.xx&oh=d6003cb6bf232457b2c178a19fa9a9f5&oe=5EC5A719);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -125px;
+    left: 20px;
+
+}
+
+.profile-body {
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 850px;
+ 
+}
+
+#left-column {
+    width: 328px;
+    display: inline-block;
+    border: grey solid 1px;
+    
+
+}
+
+#right-column {
+    float: right;
+    height: 125px;
+    width: 512px;
+    border: grey solid 1px;
+    
+    
+    
+}
